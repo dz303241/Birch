@@ -1,5 +1,5 @@
 # WordPress theme Birch (白桦)  
-<img src="https://www.jeffdesign.net/wp-content/themes/jeffdesign/images/wp-birch.png" width="550px">  
+<img src="https://www.jeffdesign.net/wp-content/themes/jeffdesign/images/wp-birch.jpg" width="550px">  
 Birch（白桦）是由杰夫设计出品的一款免费的响应式瀑布流 WordPress 主题，多用途、极简、极速，适配PC端和移动端（手机、iPad、平板电脑等）。主题集成众多实用的功能，简洁实用，速度优化，主题所有文件仅40+K，可满足个人、工作室、公司企业内容展示，自媒体个站等需求。可搭配插件作为网站移动版。
 
 *ps. 杰夫设计将用树的名字给各个主题命名*
