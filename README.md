@@ -27,13 +27,13 @@ Birch（白桦）是由杰夫设计出品的一款免费的响应式瀑布流 Wo
 [点击进入主题演示站](https://www.jeffdesign.net/demo/?themedemo=birch)  
 
 ### 首页
-![](https://www.jeffdesign.net/wp-content/uploads/2015/12/wp-birch-3.jpg)  
+![](https://www.jeffdesign.net/wp-content/uploads/2015/12/wp-birch-3-800x1104.jpg)  
 
 ### 详情页
-![](https://www.jeffdesign.net/wp-content/uploads/2015/12/wp-birch-4.jpg)  
+![](https://www.jeffdesign.net/wp-content/uploads/2015/12wp-birch-4-800x2365.jpg)  
 
 ### 移动端
-<img src="https://www.jeffdesign.net/wp-content/uploads/2015/12/wp-birch-2.jpg" width="400px">   
+<img src="https://www.jeffdesign.net/wp-content/uploads/2015/12/wp-birch-2-800x1368.jpg" width="400px">   
 
 
 ## 主题帮助
