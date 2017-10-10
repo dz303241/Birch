@@ -32,5 +32,14 @@
 
 == 更新日志 ==
 
+Version 1.1 (2017-10-10)
+-------------------------
+- 移除 archive.php
+- 移除 search.php
+- 移除 content.php 合并代码到 index.php
+- 合并存档和搜索列表标题代码到 index.php
+- 使用 the_posts_pagination() 替换原分页代码
+- 增加空页面提示
+
 Version 1.0 (2017-09-15)
 -------------------------

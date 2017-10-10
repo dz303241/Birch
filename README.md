@@ -5,7 +5,7 @@ Birch（白桦）是由杰夫设计出品的一款免费的响应式瀑布流 Wo
 *ps. 杰夫设计将用树的名字给各个主题命名*
 
 主题地址: <http://www.jeffdesign.net/projects/wp-birch/>   
-最新版本: 1.0  
+最新版本: 1.1  
 
 主题作者: 杰夫设计  
 作者网站: <http://www.jeffdesign.net/>  

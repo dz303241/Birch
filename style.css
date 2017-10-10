@@ -231,18 +231,17 @@ p.comment-form-author{margin-right:5%}
 .form-submit #submit:hover{background:#666;cursor:pointer}
 .comment-form .comment-subscription-form label{text-transform:none;letter-spacing:0}
 .comment-subscription-form+.comment-subscription-form{margin-top:12px}
-.page-title{padding:1% 0 10px}
-.page-title h4{display:block;margin:0 10px;padding-bottom:10px;border-bottom:2px solid #e1e1e1;color:#666;font-weight:700;line-height:120%}
+.page-title{padding:4% 0 3%; text-align: center;}
+.page-title h3{font-size: 22px; color: #666;}
 .search-no-results .page-title{padding-bottom:20px}
 .search-no-results .page-title h4{margin:0}
 .page-title span{float:right;color:#999;font-weight:400;}
 .pagination-container{margin-top: 3.25em; text-align: center;}
+h2.screen-reader-text{display: none !important;}
 .pagination{display: inline-block; margin: 0 auto;}
-.pagination li{display: inline-block; margin-right:3px;}
-.pagination li a{display: inline-block; width: 3.1em; height: 3.1em; text-align: center; background: none; border: none; color: #343434; font-variant-ligatures: common-ligatures; font-size: 14px; line-height: 3.1em; margin-top: 0; text-transform: uppercase; letter-spacing: 1px; font-weight: 400;}
-.pagination li a:hover{background: #ddd; color: #232323;}
-.pagination li.active a{background: #fff; color: #232323;}
-.pagination li.active a:hover{background: #fff; color: #232323;}
+.pagination a,.pagination span{display: inline-block; margin-right:3px; width: 3.1em; height: 3.1em; text-align: center; background: none; border: none; color: #343434; font-variant-ligatures: common-ligatures; font-size: 14px; line-height: 3.1em; margin-top: 0; text-transform: uppercase; letter-spacing: 1px; font-weight: 400;}
+.pagination a:hover{background: #ddd; color: #232323;}
+.pagination .current {background: #fff; color: #232323;}
 .search-form{position:relative; margin-bottom:30px;}
 .search-field{display:block;margin:0;padding:20px 80px 20px 20px;width:100%;border:0;border-radius:3px;background:#eee;color:#666;font-size:16px;font-family:'Microsoft yahei',sans-serif}
 .search-field:focus{outline:0}

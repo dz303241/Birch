@@ -93,28 +93,6 @@ else{ $classes[] = 'wp-is-not-mobile';}
 return $classes;
 }
 
-function pagenavi( $p = 2 ) {
-if ( is_singular() ) return;
-global $wp_query, $paged;
-$max_page = $wp_query->max_num_pages;
-if ( $max_page == 1 ) return;
-if ( empty( $paged ) ) $paged = 1;
-if ( $paged > 1 ) p_link( $paged - 1, '上一页', '<span>&larr;</span>' );
-if ( $paged > $p + 1 ) p_link( 1, '最前一页' );
-if ( $paged > $p + 2 ) echo '<li>...</li>';
-for( $i = $paged - $p; $i <= $paged + $p; $i++ ) {
-if ( $i > 0 && $i <= $max_page ) $i == $paged ? print "<li class='active'><a href=''>{$i}</a></li>" : p_link( $i );
-}
-if ( $paged < $max_page - $p - 1 ) echo '<li>...</li>';
-if ( $paged < $max_page - $p ) p_link( $max_page, '最后一页' );
-if ( $paged < $max_page ) p_link( $paged + 1,'下一页', '<span>&rarr;</span>' );
-}
-function p_link( $i, $title = '', $linktype = '' ) {
-if ( $title == '' ) $title = "Page {$i}";
-if ( $linktype == '' ) { $linktext = $i; } else { $linktext = $linktype; }
-echo "<li><a href='", esc_html( get_pagenum_link( $i ) ), "' title='{$title}'>{$linktext}</a></li>";
-}
-
 if ( ! function_exists( 'jeff_design_comment' ) ) :
 function jeff_design_comment( $comment, $args, $depth ) {
 $GLOBALS['comment'] = $comment;

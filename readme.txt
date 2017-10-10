@@ -6,7 +6,7 @@ Author: Jeff Design
 Author URI: http://www.jeffdesign.net/
 Requires at least: WordPress 4.0
 Tested up to: WordPress 4.8
-Version: 1.0
+Version: 1.1
 Tags: white, light, blog, portfolio, photography, one-column, two-columns, three-columns, responsive-layout, custom-background, custom-menu, featured-images, sticky-post, threaded-comments
 Theme Support: http://www.jeffdesign.net/support/
 
@@ -30,6 +30,15 @@ All files, unless otherwise stated, are released under the GNU General Public Li
 
 
 == Changelog ==
+
+Version 1.1 (2017-10-10)
+-------------------------
+- Removed archive.php
+- Removed search.php
+- Removed content.php and merged code into index.php
+- Merged code of archive and search page title into index.php
+- Changed pagination to the_posts_pagination() function
+- Add blank page tips
 
 Version 1.0 (2017-09-15)
 -------------------------
