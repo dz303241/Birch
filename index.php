@@ -2,7 +2,7 @@
 <div class="content">
 <?php if ( !is_home() ) { ?>
   <div class="page-title">
-  <h3><?php if ( is_day() ) : ?><?php echo get_the_date( get_option('date_format') ); ?>
+  <h3><?php if ( is_day() ) : ?><果哥 ?php echo get_the_date( get_option('date_format') ); ?>
   <?php elseif ( is_month() ) : ?><?php echo get_the_date('F Y'); ?>
   <?php elseif ( is_year() ) : ?><?php echo get_the_date('Y'); ?>
   <?php elseif ( is_category() ) : ?><?php printf( '分类：%s', '' . single_cat_title( '', false ) . '' ); ?>
